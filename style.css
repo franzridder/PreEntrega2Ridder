@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
+
+body {
+
+    margin: 0px 16px 0px 16px;
+}
+ul {
+    list-style: none;
+    
+}
+
+header ul {
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+header ul li {
+    
+
+    display: inline-block;
+   
+   }
+
+  
+.search {
+
+    position: relative;
+    display: inline;
+   align-items: center;
+  
+    
+}
+
+
+
+.carrousel {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.carrousel h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.card {
+    display: inline-block;
+    border: solid 1px black;
+    margin-right: 8px;
+    padding: 16px;
+    padding-bottom: 72px;
+}
+
+
+
+.chip {
+    position: absolute;
+    display:inline-block
+   
+   
+}   
+
+.chip p {
+    border: solid 2px white;
+    color:rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 500px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    
+}
+
+
+
+img {
+    height: 200px;
+    
+}
+
+
+
