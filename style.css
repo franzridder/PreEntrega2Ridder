@@ -6,47 +6,42 @@
 
 body {
 
-    margin: 0px 16px 0px 16px;
+    padding: 0px 0px 64px 16px;
 }
+
 ul {
     list-style: none;
-    
 }
 
 header ul {
-
-    margin-top: 8px;
-    margin-bottom: 8px;
+    display: flex;
     justify-content: space-between;
+    padding: 8px 8px 8px 8px;
 }
-
-header ul li {
-    
-
-    display: inline-block;
-   
-   }
 
   
 .search {
-
-    position: relative;
-    display: inline;
+   position: relative;
+   display: inline;
    align-items: center;
   
     
 }
 
-
-
 .carrousel {
     width: 100%;
-    display: inline-block;
+    display: block;
     overflow: hidden;
+    
+}
+
+.carrousel_cards {
+    display: flex;
+    
 }
 
 .carrousel h3 {
-    margin-top: 24px;
+    margin-top: 40px;
     margin-bottom: 8px;
 }
 
@@ -85,6 +80,3 @@ img {
     height: 200px;
     
 }
-
-
-
