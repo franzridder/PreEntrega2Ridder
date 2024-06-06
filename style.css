@@ -19,11 +19,48 @@ header ul {
     padding: 8px 8px 8px 8px;
 }
 
+#search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+#search-section div {
+    display: flex;
+    flex-direction:row ; 
+    align-items: center;
   
+}
+
+.city {
+    width: 200px;
+    height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.search-bar {
+width: 400px;
+height: 30px;
+}
+
+#search-section div button {
+    height:30px;
+    width: 150px;
+    background-color: #111;
+    color: white;
+    border: none;
+}
+
+
+
 .search {
    position: relative;
    display: inline;
    align-items: center;
+   width: 1fr;
   
     
 }
@@ -32,6 +69,7 @@ header ul {
     width: 100%;
     display: block;
     overflow: hidden;
+    overflow-x: auto;
     
 }
 
