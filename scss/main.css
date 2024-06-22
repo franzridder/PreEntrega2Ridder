@@ -116,7 +116,7 @@ body .listings .carrousel .carrousel_cards .card .cards_description .listings .c
   font-weight: 600;
 }
 
-.grid_wrapper {
+.gallery .grid_wrapper {
   margin-top: 100px;
   display: grid;
   width: 400px;
@@ -125,33 +125,33 @@ body .listings .carrousel .carrousel_cards .card .cards_description .listings .c
   grid-template-rows: 200px 200px 200px;
   grid-template-columns: 200px 200px;
 }
-.grid_wrapper .image {
+.gallery .grid_wrapper .image {
   width: 100%;
   height: 100%;
   -o-object-fit: fill;
   object-fit: fill;
 }
-.grid_wrapper .image-1 {
+.gallery .grid_wrapper .image-1 {
   grid-column: 1/3;
 }
 
 @media (max-width: 775px) {
-  #search-section div {
+  #search-section #search-section div {
     width: 100%;
   }
-  #search-section div form {
+  #search-section #search-section div #search-section div form {
     display: block;
     width: 100%;
     gap: 8px;
   }
-  #search-section div form .city {
-    width: 100%;
-  }
-  #search-section div form button {
+  #search-section #search-section div #search-section div form #search-section div form button {
     width: 100%;
     margin-top: 16px;
   }
-  #search-section div form .search-bar {
+  #search-section #search-section div #search-section div form #search-section div form .city {
+    width: 100%;
+  }
+  #search-section #search-section div #search-section div form #search-section div form .search-bar {
     width: 100%;
     margin-top: 16px;
   }
@@ -159,23 +159,23 @@ body .listings .carrousel .carrousel_cards .card .cards_description .listings .c
     margin-left: 8px;
     margin-right: 8px;
   }
-  .all_info {
+  body .all_info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .restaurant_info {
+  body .all_info .restaurant_info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .main-header {
+  body .all_info .restaurant_info .main-header {
     width: 100%;
   }
-  .gallery {
+  body .all_info .restaurant_info .gallery {
     align-items: center;
   }
-  .grid_wrapper {
+  body .all_info .restaurant_info .grid_wrapper {
     align-items: center;
   }
 }
