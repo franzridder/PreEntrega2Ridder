@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+h5, h2, p {
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: #111;
@@ -89,10 +93,15 @@ header ul {
   margin-right: 8px;
   padding: 16px;
   padding-bottom: 72px;
+  background-color: #111;
 }
 
 .card h5 {
   size: 20x;
+}
+
+.cards_description {
+  margin-top: 16px;
 }
 
 img {

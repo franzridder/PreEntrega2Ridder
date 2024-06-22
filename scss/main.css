@@ -1,1 +1,193 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter", sans-serif;
+}
+h5, h2, p {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+#search-section div button {
+  height: 30px;
+  width: 150px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+}
+
+a:hover {
+  opacity: 90%;
+}
+
+body {
+  padding: 0px 0px 64px 16px;
+}
+body #search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+body #search-section #search-section, body #search-section div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body #search-section #search-section .search, body #search-section div .search {
+  position: relative;
+  display: inline;
+  align-items: center;
+  width: 1fr;
+}
+body #search-section #search-section .search .city, body #search-section div .search .city {
+  width: 200px;
+  height: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+body #search-section #search-section .search .search-bar, body #search-section div .search .search-bar {
+  width: 400px;
+  height: 30px;
+}
+body #search-section #search-section .search #search-section div button, body #search-section div .search #search-section div button {
+  height: 30px;
+  width: 150px;
+  background-color: #111;
+  color: white;
+  border: none;
+}
+body .listings .carrousel {
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+}
+body .listings .carrousel .carrousel, body .listings .carrousel h3 {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+body .listings .carrousel .carrousel_cards {
+  display: flex;
+}
+body .listings .carrousel .carrousel_cards .card {
+  display: inline-block;
+  border: solid 1px black;
+  margin-right: 8px;
+  padding: 16px;
+  padding-bottom: 72px;
+  background-color: #111;
+}
+body .listings .carrousel .carrousel_cards .card img {
+  height: 200px;
+}
+body .listings .carrousel .carrousel_cards .card .cards_description {
+  margin-top: 16px;
+}
+body .listings .carrousel .carrousel_cards .card .cards_description .card, body .listings .carrousel .carrousel_cards .card .cards_description h5 {
+  size: 20x;
+}
+body .listings .carrousel .carrousel_cards .card .cards_description .listings .carrousel .carrousel_cards .card h2 {
+  font-size: 20px;
+}
+
+.all_info {
+  display: flex;
+}
+.all_info .restaurant_info {
+  display: flex;
+  margin-top: 40px;
+  margin-right: 48px;
+}
+.all_info .restaurant_info .main_info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.all_info .restaurant_info .main_info .main-header {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.grid_wrapper {
+  margin-top: 100px;
+  display: grid;
+  width: 400px;
+  overflow: hidden;
+  gap: 16px;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px;
+}
+.grid_wrapper .image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+.grid_wrapper .image-1 {
+  grid-column: 1/3;
+}
+
+@media (max-width: 775px) {
+  #search-section div {
+    width: 100%;
+  }
+  #search-section div form {
+    display: block;
+    width: 100%;
+    gap: 8px;
+  }
+  #search-section div form .city {
+    width: 100%;
+  }
+  #search-section div form button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  #search-section div form .search-bar {
+    width: 100%;
+    margin-top: 16px;
+  }
+  body {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .all_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .restaurant_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-header {
+    width: 100%;
+  }
+  .gallery {
+    align-items: center;
+  }
+  .grid_wrapper {
+    align-items: center;
+  }
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 8px;
+}
+header ul ul {
+  list-style: none;
+}
+header ul ul a {
+  text-decoration: none;
+  color: #111;
+}/*# sourceMappingURL=main.css.map */
