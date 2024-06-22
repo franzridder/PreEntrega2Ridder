@@ -1,241 +1,191 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family:'Inter', sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: #111;
+  text-decoration: none;
+  color: #111;
 }
 
 body {
-     padding: 0px 0px 64px 16px;
+  padding: 0px 0px 64px 16px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 header ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 8px 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 8px;
 }
 
-
-
 #search-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 #search-section div {
-    display: flex;
-    flex-direction:row ; 
-    align-items: center;
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .city {
-    width: 200px;
-    height: 30px;
-    padding-left: 16px;
-    padding-right: 16px;
+  width: 200px;
+  height: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .search-bar {
-    width: 400px;
-    height: 30px;
-}  
-
-#search-section div button {
-    height:30px;
-    width: 150px;
-    background-color: #111;
-    color: white;
-    border: none;
+  width: 400px;
+  height: 30px;
 }
 
-
+#search-section div button {
+  height: 30px;
+  width: 150px;
+  background-color: #111;
+  color: white;
+  border: none;
+}
 
 .search {
-   position: relative;
-   display: inline;
-   align-items: center;
-   width: 1fr;
-  
-    
+  position: relative;
+  display: inline;
+  align-items: center;
+  width: 1fr;
 }
 
 .carrousel {
-    width: 100%;
-    display: block;
-    
-    overflow-x: auto;
-    
+  width: 100%;
+  display: block;
+  overflow-x: auto;
 }
 
 .carrousel_cards {
-    display: flex;
-    
+  display: flex;
 }
 
 .carrousel h3 {
-    margin-top: 40px;
-    margin-bottom: 8px;
+  margin-top: 40px;
+  margin-bottom: 8px;
 }
 
 .listings .carrousel .carrousel_cards .card h2 {
-   
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .card {
-    display: inline-block;
-    border: solid 1px black;
-    margin-right: 8px;
-    padding: 16px;
-    padding-bottom: 72px;
-    
+  display: inline-block;
+  border: solid 1px black;
+  margin-right: 8px;
+  padding: 16px;
+  padding-bottom: 72px;
 }
 
-.card  h5 {
-size: 20x;
+.card h5 {
+  size: 20x;
 }
 
 img {
-    height: 200px;
-    
+  height: 200px;
 }
 
 .all_info {
-
-    display: flex;
-   
+  display: flex;
 }
 
 .restaurant_info {
-    display: flex;
-    margin-top: 40px;
-    margin-right: 48px;
-    
-    }
-   
+  display: flex;
+  margin-top: 40px;
+  margin-right: 48px;
+}
+
 .gallery {
-    display: flex;
-}    
+  display: flex;
+}
 
 .main_info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .main-header {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-
-.grid_wrapper{
-    margin-top: 100px;
-    
-    display: grid;
-    width: 400px;
-    overflow: hidden;
-    gap: 16px;
-
-    grid-template-rows: 200px 200px 200px ;
-    grid-template-columns: 200px 200px;
+.grid_wrapper {
+  margin-top: 100px;
+  display: grid;
+  width: 400px;
+  overflow: hidden;
+  gap: 16px;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px;
 }
 
+.image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
 
-.image  {
-   width: 100%;
-   height: 100%;
-   object-fit: fill;
-   
-  }
-
-    .image-1 {
-    grid-column: 1/3;
+.image-1 {
+  grid-column: 1/3;
 }
 
 @media (max-width: 775px) {
-
-   
-    #search-section div {
-        width: 100%;
-    }
-
-    #search-section div form  {
-         
-            display: block;
-            width: 100%;
-            gap: 8px;
-        
-         }
-
-         #search-section div form .city  {
-             
-           
-            width: 100%;
-         }
-
-         #search-section div form button  {
-                 
-               
-            width: 100%;
-            margin-top: 16px;
-         }
-
-         #search-section div form .search-bar  {
-                 
-               
-            width: 100%;
-            margin-top: 16px;
-         }
-
-         body {
-            margin-left: 8px;
-            margin-right: 8px;
-        }
-
-        .all_info {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
- 
-
-        }
-
-        .restaurant_info {
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-        }
-
-        .main-header {
-            width: 100%;
-        } 
-
-        .gallery {
-            align-items: center;
-
-        }
-
-         .grid_wrapper {
-            align-items: center;
-        }
-
-      
-      
-    }
-   
+  #search-section div {
+    width: 100%;
+  }
+  #search-section div form {
+    display: block;
+    width: 100%;
+    gap: 8px;
+  }
+  #search-section div form .city {
+    width: 100%;
+  }
+  #search-section div form button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  #search-section div form .search-bar {
+    width: 100%;
+    margin-top: 16px;
+  }
+  body {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .all_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .restaurant_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-header {
+    width: 100%;
+  }
+  .gallery {
+    align-items: center;
+  }
+  .grid_wrapper {
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */
